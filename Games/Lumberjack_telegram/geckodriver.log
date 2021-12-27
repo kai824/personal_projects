@@ -1,0 +1,1057 @@
+1611322388603	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.FgsRZgnUZETO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611322391275	Marionette	INFO	Listening on port 54097
+1611322391397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611322466559	Marionette	INFO	Stopped listening on port 54097
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611322468590	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Gku5NyLmT0BW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611322471121	Marionette	INFO	Listening on port 54178
+1611322471163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611322593944	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.ddxIFq2pbOyl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611322596413	Marionette	INFO	Listening on port 54257
+1611322596530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611322648634	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.8ET3SkzQoGS6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611322651014	Marionette	INFO	Listening on port 54335
+1611322651123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611322690479	Marionette	INFO	Stopped listening on port 54335
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611322801215	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.8dEGpLhGfakW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611322803752	Marionette	INFO	Listening on port 54421
+1611322803846	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611322806666	Marionette	INFO	Stopped listening on port 54421
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611322819399	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.7CmPHovccX31"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611322821676	Marionette	INFO	Listening on port 54494
+1611322821784	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611322844115	Marionette	INFO	Stopped listening on port 54494
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611323008512	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.G0r229qXdMIS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323011391	Marionette	INFO	Listening on port 54658
+1611323011432	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611323675322	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.t9IfTQYzzrV2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323678442	Marionette	INFO	Listening on port 54919
+1611323678553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611323695364	Marionette	INFO	Stopped listening on port 54919
+1611323718466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.RQ1ZCztcqNZp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323721271	Marionette	INFO	Listening on port 55003
+1611323721382	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611323742458	Marionette	INFO	Stopped listening on port 55003
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611323752030	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.ILQZHcAcRsYu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323754843	Marionette	INFO	Listening on port 55079
+1611323754949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611323775218	Marionette	INFO	Stopped listening on port 55079
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611323821648	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Ky3uaDLLbynd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323824689	Marionette	INFO	Listening on port 55160
+1611323824786	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611323897158	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.OQ9EQNQWaF8K"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323900345	Marionette	INFO	Listening on port 55243
+1611323900394	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611323915258	Marionette	INFO	Stopped listening on port 55243
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611323935184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.fDrtqQckMV2k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611323938204	Marionette	INFO	Listening on port 55325
+1611323938315	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611323950860	Marionette	INFO	Stopped listening on port 55325
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611324409718	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.UU0s31kOcErf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324412759	Marionette	INFO	Listening on port 55421
+1611324412850	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611324480781	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.zr2YF36w3rsb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324483760	Marionette	INFO	Listening on port 55502
+1611324483816	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611324507209	Marionette	INFO	Stopped listening on port 55502
+1611324620562	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.KB5qoUn2gKAM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324623352	Marionette	INFO	Listening on port 55582
+1611324623473	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611324647118	Marionette	INFO	Stopped listening on port 55582
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611324722684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.i8hRX2ldXLqG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324725185	Marionette	INFO	Listening on port 55665
+1611324725261	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611324754811	Marionette	INFO	Stopped listening on port 55665
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611324780914	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.qdrpf5Qtncw7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324783309	Marionette	INFO	Listening on port 55744
+1611324783401	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611324796663	Marionette	INFO	Stopped listening on port 55744
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611324836069	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Xc1Boh4rASYT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324838603	Marionette	INFO	Listening on port 55819
+1611324838657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611324867446	Marionette	INFO	Stopped listening on port 55819
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611324905727	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.csF1R5b934Be"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324908197	Marionette	INFO	Listening on port 55899
+1611324908304	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611324932248	Marionette	INFO	Stopped listening on port 55899
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611324976306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.eNbgAYZhHPtq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611324978771	Marionette	INFO	Listening on port 55980
+1611324978884	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325013630	Marionette	INFO	Stopped listening on port 55980
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325162372	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.hdCmNaiHuIQK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325164996	Marionette	INFO	Listening on port 56081
+1611325165076	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325177154	Marionette	INFO	Stopped listening on port 56081
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325187651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.yfgbs8dIK0JV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325190215	Marionette	INFO	Listening on port 56159
+1611325190238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325202924	Marionette	INFO	Stopped listening on port 56159
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325251701	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.iI8jDhdRIar4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325254302	Marionette	INFO	Listening on port 56239
+1611325254403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325274760	Marionette	INFO	Stopped listening on port 56239
+1611325293640	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.XhU2qd3ZwHLH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325296112	Marionette	INFO	Listening on port 56315
+1611325296233	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325317841	Marionette	INFO	Stopped listening on port 56315
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325321307	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.A1TyNOOMZoiW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325323871	Marionette	INFO	Listening on port 56392
+1611325323902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325358955	Marionette	INFO	Stopped listening on port 56392
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325362420	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.YEfIAspP7c6n"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325364701	Marionette	INFO	Listening on port 56468
+1611325364806	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325381933	Marionette	INFO	Stopped listening on port 56468
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325394090	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.r3UGCo6x2Plm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325396469	Marionette	INFO	Listening on port 56542
+1611325396568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:330:29
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1611325410597	Marionette	INFO	Stopped listening on port 56542
+1611325417818	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.U0ucWjBGYv4X"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325420160	Marionette	INFO	Listening on port 56617
+1611325420191	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325437644	Marionette	INFO	Stopped listening on port 56617
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325455858	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.LyPRCWcbgJqO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325458237	Marionette	INFO	Listening on port 56693
+1611325458352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325472748	Marionette	INFO	Stopped listening on port 56693
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325481391	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.UkKBStIMcXN3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325483726	Marionette	INFO	Listening on port 56769
+1611325483792	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325503663	Marionette	INFO	Stopped listening on port 56769
+1611325528681	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.mGZ04woM2THr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325531348	Marionette	INFO	Listening on port 56845
+1611325531466	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611325551639	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.q6T805VQouvT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325553921	Marionette	INFO	Listening on port 56924
+1611325554025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611325588260	Marionette	INFO	Stopped listening on port 56924
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611325609226	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.uOrgFTsLPnfo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325611876	Marionette	INFO	Listening on port 57004
+1611325611918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611325647484	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.SdVyft0gTW7M"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325649800	Marionette	INFO	Listening on port 57083
+1611325649880	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611325700363	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.5AVca0NbHObp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325703014	Marionette	INFO	Listening on port 57159
+1611325703079	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611325737742	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.kmEEWznThRKK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325740300	Marionette	INFO	Listening on port 57248
+1611325740340	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611325802234	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.5Iy0A92JqjkU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325804839	Marionette	INFO	Listening on port 57323
+1611325804942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611325823883	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.HVKSY6nSftkH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325826176	Marionette	INFO	Listening on port 57398
+1611325826275	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611325841320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.VhQMSm5bYBrT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611325843909	Marionette	INFO	Listening on port 57471
+1611325844026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1611325877827	Marionette	INFO	Stopped listening on port 57471
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611326062639	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.jf8YHv9mwUSX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611326065046	Marionette	INFO	Listening on port 57561
+1611326065127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611326076727	Marionette	INFO	Stopped listening on port 57561
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611326079689	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.PaqFxBdXTcdm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611326082101	Marionette	INFO	Listening on port 57642
+1611326082182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611326128116	Marionette	INFO	Stopped listening on port 57642
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611326132752	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.IgccwAPVLV0S"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611326135277	Marionette	INFO	Listening on port 57721
+1611326135328	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611326178795	Marionette	INFO	Stopped listening on port 57721
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611326509587	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.LOXuL0kebSGZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611326512581	Marionette	INFO	Listening on port 57853
+1611326512684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611326639849	Marionette	INFO	Stopped listening on port 57853
+1611540299338	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.sQiUQUTI3CQH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611540302806	Marionette	INFO	Listening on port 50445
+1611540302926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611540349870	Marionette	INFO	Stopped listening on port 50445
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611540357258	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Qo5fW59rNI5A"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611540359638	Marionette	INFO	Listening on port 50551
+1611540359744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611540417268	Marionette	INFO	Stopped listening on port 50551
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611542682229	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.YgKoFy5ZvWSt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611542685625	Marionette	INFO	Listening on port 50941
+1611542685746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611542847488	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.siTCvoPp4XYU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611542850185	Marionette	INFO	Listening on port 51074
+1611542850285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611542894197	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.SyTXLsjEwOtJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611542896704	Marionette	INFO	Listening on port 51163
+1611542896779	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611542943232	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.sHhDLNz7buxl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611542945694	Marionette	INFO	Listening on port 51244
+1611542945798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611542990907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.bbZgynd78h5D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611542993435	Marionette	INFO	Listening on port 51321
+1611542993508	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611543022959	Marionette	INFO	Stopped listening on port 51321
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611543043735	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.OXq6Zp8gXMfU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611543046375	Marionette	INFO	Listening on port 51403
+1611543046421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611547978341	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.MXFyCIwS59CV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611547981700	Marionette	INFO	Listening on port 51712
+1611547981731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611548077366	Marionette	INFO	Stopped listening on port 51712
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611548082162	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.doSqzcF4I7dl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611548084597	Marionette	INFO	Listening on port 51822
+1611548084628	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611548231453	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.yd6NVxvsfsg7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611548234434	Marionette	INFO	Listening on port 52042
+1611548234559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:330:29
+
+1611548321811	Marionette	INFO	Stopped listening on port 52042
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611640270470	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.dq2iChgdkStu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611640273775	Marionette	INFO	Listening on port 58844
+1611640273894	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1611649122360	Marionette	INFO	Stopped listening on port 58844
+1637831459534	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.DymxU3juapuA"
+1637831465504	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.DymxU3juapuA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831467844	Marionette	INFO	Listening on port 56529
+1637831502244	Marionette	INFO	Stopped listening on port 56529
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637831507466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.frSEUWrP5XMW"
+1637831508034	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.frSEUWrP5XMW/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831509812	Marionette	INFO	Listening on port 56572
+1637831509876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637831546165	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.rpkaj7g40UEw"
+1637831546749	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.rpkaj7g40UEw/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831548862	Marionette	INFO	Listening on port 56642
+1637831548997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637831583682	Marionette	INFO	Stopped listening on port 56572
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637831593820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.wPFVeIwPQuYG"
+1637831594299	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.wPFVeIwPQuYG/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831595986	Marionette	INFO	Listening on port 56724
+1637831596110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637831646682	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Ws3T67Iz6XVt"
+1637831647140	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Ws3T67Iz6XVt/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831648740	Marionette	INFO	Listening on port 56798
+1637831648763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637831676312	Marionette	INFO	Stopped listening on port 56798
+1637831678170	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.gleNxJk0w8JD"
+1637831678612	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.gleNxJk0w8JD/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831680318	Marionette	INFO	Listening on port 56867
+1637831680360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637831697999	Marionette	INFO	Stopped listening on port 56867
+1637831699737	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Xdx2CfEqjMzE"
+1637831700173	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Xdx2CfEqjMzE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831701780	Marionette	INFO	Listening on port 56935
+1637831701822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637831722086	Marionette	INFO	Stopped listening on port 56935
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 21486, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637831823692	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.qrYB1CFndufM"
+1637831824128	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.qrYB1CFndufM/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831825830	Marionette	INFO	Listening on port 57006
+1637831825860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637831951472	Marionette	INFO	Stopped listening on port 57006
+1637831954644	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.0XsIciWnTdui"
+1637831955220	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.0XsIciWnTdui/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831956953	Marionette	INFO	Listening on port 57081
+1637831957031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637831982120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.0kxbtwkevHXZ"
+1637831982660	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.0kxbtwkevHXZ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637831984649	Marionette	INFO	Listening on port 57153
+1637831984727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832018522	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Ufp6WH56TeG2"
+1637832019173	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Ufp6WH56TeG2/search.json.mozlz4", (void 0)))
+1637832021197	Marionette	INFO	Stopped listening on port 57153
+[Parent 21539, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832021876	Marionette	INFO	Listening on port 57228
+1637832021982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832049509	Marionette	INFO	Stopped listening on port 57228
+[Parent 21552, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637832053782	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.pZlMOM6VRkWl"
+1637832054237	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.pZlMOM6VRkWl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832055902	Marionette	INFO	Listening on port 57309
+1637832055975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832092007	Marionette	INFO	Stopped listening on port 57309
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637832093709	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.1sGac1desqKQ"
+1637832094146	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.1sGac1desqKQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832095867	Marionette	INFO	Listening on port 57379
+1637832095895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832122248	Marionette	INFO	Stopped listening on port 57379
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637832124872	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.lLSig6xoWNH1"
+1637832125334	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.lLSig6xoWNH1/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832126987	Marionette	INFO	Listening on port 57452
+1637832127064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832149032	Marionette	INFO	Stopped listening on port 57452
+1637832153823	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.3SHPUe8CVpmX"
+1637832154304	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.3SHPUe8CVpmX/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832155909	Marionette	INFO	Listening on port 57526
+1637832156019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832173604	Marionette	INFO	Stopped listening on port 57526
+[Parent 21602, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637832176652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.03cf3xEbDPX5"
+1637832177158	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.03cf3xEbDPX5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832178779	Marionette	INFO	Listening on port 57601
+1637832178845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1637832214491	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.LmaMz2zp4PQC"
+1637832214972	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.LmaMz2zp4PQC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832216794	Marionette	INFO	Listening on port 57674
+1637832216885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832246615	Marionette	INFO	Stopped listening on port 57674
+1637832251930	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Y1IEpfGv2ZfE"
+1637832252392	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.Y1IEpfGv2ZfE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832254068	Marionette	INFO	Listening on port 57747
+1637832254146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832279796	Marionette	INFO	Stopped listening on port 57747
+[Parent 21649, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+1637832284335	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.4l1XK5290wuI"
+1637832284839	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.4l1XK5290wuI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832286626	Marionette	INFO	Listening on port 57818
+1637832286745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637832333249	Marionette	INFO	Stopped listening on port 57818
+1637832339937	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.MSQBBy3dw75m"
+1637832340401	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.MSQBBy3dw75m/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832342062	Marionette	INFO	Listening on port 57888
+1637832342121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1637832391884	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.lpqnHOrkjAta"
+1637832392344	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.lpqnHOrkjAta/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832393953	Marionette	INFO	Listening on port 57957
+1637832394069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637832420595	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.MaxCGEmrNFSA"
+1637832421061	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.MaxCGEmrNFSA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832422607	Marionette	INFO	Listening on port 58028
+1637832422673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1637832525548	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.I7qaJoKBIZWI"
+1637832526278	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.I7qaJoKBIZWI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832528328	Marionette	INFO	Listening on port 58134
+1637832528370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1637832596220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.PSQnajCYVb7w"
+1637832596651	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.PSQnajCYVb7w/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832598300	Marionette	INFO	Listening on port 58212
+1637832598388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1637832648011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.sHgP1LFDu2CA"
+1637832648556	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.sHgP1LFDu2CA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832650260	Marionette	INFO	Listening on port 58284
+1637832650302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637832746265	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.6N4D0ZRwwuX4"
+1637832746812	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.6N4D0ZRwwuX4/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832748425	Marionette	INFO	Listening on port 58356
+1637832748539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637832800476	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.EXrSVPFdmYme"
+1637832800915	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.EXrSVPFdmYme/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832802478	Marionette	INFO	Listening on port 58428
+1637832802551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637832838976	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.bjkwmwqSkfg5"
+1637832839426	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.bjkwmwqSkfg5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832841031	Marionette	INFO	Listening on port 58496
+1637832841054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637832861064	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.mwnnkPvimzyC"
+1637832861657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.mwnnkPvimzyC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832863265	Marionette	INFO	Listening on port 58565
+1637832863354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637832894255	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.nZjx8lLYdaJr"
+1637832895090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.nZjx8lLYdaJr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832898162	Marionette	INFO	Listening on port 58641
+1637832898309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1637832956687	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.lZdD52ovUg1Y"
+1637832957518	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.lZdD52ovUg1Y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637832959717	Marionette	INFO	Listening on port 58730
+1637832959826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637833007295	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.P7u0rnUadmfl"
+1637833007997	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.P7u0rnUadmfl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833012095	Marionette	INFO	Listening on port 58810
+1637833012194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1637833064431	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.pfk7va8C3Vgs"
+1637833065410	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.pfk7va8C3Vgs/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833069569	Marionette	INFO	Listening on port 58908
+1637833069678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637833120152	Marionette	INFO	Stopped listening on port 58908
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637833132550	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.LpLS3qEDvTb5"
+1637833133243	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.LpLS3qEDvTb5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833136305	Marionette	INFO	Listening on port 59010
+1637833136389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637833211329	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.V2Tbnf0MiQKT"
+1637833212019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.V2Tbnf0MiQKT/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833214996	Marionette	INFO	Listening on port 59100
+1637833215065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637833248231	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.9vCZC6RS2X51"
+1637833249187	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.9vCZC6RS2X51/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833252956	Marionette	INFO	Listening on port 59187
+1637833253017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637833407613	Marionette	INFO	Stopped listening on port 59187
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637833411107	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.VVYpVk8GqxOr"
+1637833411778	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.VVYpVk8GqxOr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833414639	Marionette	INFO	Listening on port 59298
+1637833414735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA60007,name=PWebRenderBridge::Msg_EmptyTransaction) Channel error: cannot send/recv
+
+JavaScript warning: , line 0: Failed to allocate internal command buffer.
+JavaScript warning: , line 0: WebGL context was lost.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA40003,name=PWebGL::Msg___delete__) Channel error: cannot send/recv
+
+1637833492930	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.OfPANm3OV1WQ"
+1637833493919	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v6/p9gtnw1s27vfv3nljs_y614c0000gq/T/rust_mozprofile.OfPANm3OV1WQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1637833498153	Marionette	INFO	Listening on port 59391
+1637833498293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+JavaScript warning: https://tbot.xyz/lumber/js/main.min.js?27, line 14: WebGL context was lost.
+1637833548639	Marionette	INFO	Stopped listening on port 59391
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

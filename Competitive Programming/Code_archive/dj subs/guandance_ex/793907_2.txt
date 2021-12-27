@@ -1,0 +1,2 @@
+// 2.txt 24 Nov 20, 16:53:51 100 0 Judging completed in 2.599s on AWS Oregon.
+GUANTASTIC

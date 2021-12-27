@@ -1,0 +1,24 @@
+// ans.cpp 1 Aug 17, 09:07:13 0 0 Compilation failed on AWS Oregon.
+%:include<iostream>
+int
+n;
+int
+i;
+int
+a;
+int
+s;
+int
+c;
+int
+u;
+main()<%
+u++;
+c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++c++ 
+std::cin>>n;
+for(;i<n;i++)<%
+for(;a<i;a++)<%
+std::cout<<a++<<
+%>
+%>
+%>

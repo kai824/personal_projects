@@ -1,0 +1,379 @@
+https://docs.google.com/document/d/1vcCshQHKtt5fWKBKR8nE-wbMuXhPkWcZ5nxBKE_Fk2s/edit
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Persistent Segment tree: (range max, lazy propagation)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ONE LLONG_MIN
+
+
+typedef long long ll;
+struct node{
+	ll v=0,lazy=0;
+	node *l=NULL,*r=NULL;
+	node(){}
+	ll query(ll s,ll e,ll a,ll b){
+		if(a<=s && e<=b)return v;
+		ll lv=ONE,rv=ONE;
+		if(a<=((s+e)/2)){//left child involved
+			if(l==NULL){
+				lv=lazy;
+			}else{
+				lv=l->query(s,(s+e)/2,a,b)+lazy;
+			}
+		}
+		if((s+e)/2<b){
+			if(r==NULL){
+				rv=lazy;
+			}else{
+				rv=r->query((s+e)/2 + 1,e,a,b)+lazy;
+			}
+		}
+		return max(lv,rv);
+	}
+	void update(ll s,ll e,ll a,ll b,ll add){
+		if(a<=s && e<=b){
+			if(s!=e)lazy+=add;
+			v+=add;
+			return;
+		}
+		if(a<=((s+e)/2)){//left child involved
+			if(l==NULL){
+				l=new node();
+			}
+			l->update(s,(s+e)/2,a,b,add);
+		}
+		if((s+e)/2<b){
+			if(r==NULL){
+				r=new node();
+			}
+			r->update((s+e)/2 + 1,e,a,b,add);
+		}
+		v=ONE;
+		if(l!=NULL)v=max(v,l->v);
+		else v=0ll;
+		if(r!=NULL)v=max(v,r->v);
+		else v=max(v,0ll);
+		v+=lazy;
+	}
+
+	void copy(node* n,ll s,ll e,ll a,ll b,ll add){
+		v=n->v;lazy=n->lazy;
+		l=n->l;r=n->r;
+		if(a<=s && e<=b){
+			if(s!=e)lazy+=add;
+			v+=add;
+			return;
+		}
+		if(a<=((s+e)/2)){//left child involved
+			if(l==NULL){
+				l=new node();
+				l->update(s,(s+e)/2,a,b,add);
+			}else{
+				l=new node();
+				l->copy(n->l,s,(s+e)/2,a,b,add);
+			}
+		}
+		if((s+e)/2<b){
+			if(r==NULL){
+				r=new node();
+				r->update((s+e)/2 + 1,e,a,b,add);
+			}else{
+				r=new node();
+				r->copy(n->r,(s+e)/2 + 1,e,a,b,add);
+			}
+		}
+		v=ONE;
+		if(l!=NULL)v=max(v,l->v);
+		else v=0ll;
+		if(r!=NULL)v=max(v,r->v);
+		else v=max(v,0ll);
+		v+=lazy;
+	}
+} *st[100005];//1 root node for each version...
+
+void init(int L, int M, int Q){st[0]=new node();}//meh...
+
+void proposal(int n, int k, int a, int b, int c){
+	st[n]=new node();
+	st[n]->copy(st[k],0,1e9,a,b,c);
+}
+
+long long max_height(int P, int X, int Y) {
+    return st[P]->query(0,1e9,X,Y);
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PBDS:
+
+Add the following lines to the top of your program to use PBDS.
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+
+(constructor) ordered_set (change less<T> to less_equal<T> for a multiset):
+template <typename T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+ordered_set<int> s;        //ordered_set<T> name;
+Note: On older compilers, use null_mapped_type instead of null_type
+
+(constructor) ordered_map:
+template <typename K, typename V>
+using ordered_map = tree<K, V, less<K>, rb_tree_tag, tree_order_statistics_node_update>;
+ordered_map<string, int> m;        //ordered_map<K,V> name;
+
+An STL set or map with two extra functions:
+find_by_order(x) returns an iterator pointing to the xth element in the set (0-indexed).
+order_of_key(k) returns the number of elements strictly less than k.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HLD:
+
+vector<int> adjl[100005];
+bool vis[100005];
+int dist[100005],preorder[100005],rt[100005],parent[100005];
+int nex=1;
+
+int dfs(int node){
+	vis[node]=true;
+	int cnt=1,a,cur=0,it=-1;
+	for(int x=0;x<adjl[node].size();x++){
+		if(vis[adjl[node][x]]==false){
+			a=dfs(adjl[node][x]);
+			cnt+=a;
+			if(a>cur){
+				cur=a;
+				it=x;
+			}
+		}
+	}
+	if(it>0){
+		swap(adjl[node][it],adjl[node][0]);
+	}
+	return cnt;
+}
+void dfs2(int node,int dd,int prev,int heavy_root=-1){
+	if(heavy_root==-1)heavy_root=node;
+	rt[node]=heavy_root;
+	vis[node]=false;
+	dist[node]=dd;parent[node]=prev;
+	preorder[node]=nex;nex++;
+	for(int x=0;x<adjl[node].size();x++){
+		if(vis[adjl[node][x]]==true){
+			if(x==0)dfs2(adjl[node][x],dd+1,node,heavy_root=heavy_root);//heavy edge...
+			else dfs2(adjl[node][x],dd+1,node);//light edge...
+		}
+	}
+}
+
+int ft[100005];
+inline int ls(int x){
+	return x & (-x);
+}
+void update(int x,int v){
+	for(;x<=100002;x+=ls(x))ft[x]+=v;
+}
+int query(int x){
+	int ans=0;
+	for(;x;x-=ls(x)){
+		ans+=ft[x];
+	}
+	return ans;
+}
+
+void plant(int a,int b){//range update on the path from a to b...
+    if(dist[a]>dist[b])swap(a,b);
+	while(rt[a]!=rt[b]){
+		if(dist[rt[a]]>dist[rt[b]])swap(a,b);
+		update(preorder[rt[b]],1);
+		update(preorder[b]+1,-1);
+		b=parent[rt[b]];
+	}
+	if(dist[a]>dist[b])swap(a,b);
+	update(preorder[a]+1,1);update(preorder[b]+1,-1);
+}
+
+
+dfs(1);//choose which child is heavy...
+dfs2(1,1,1);
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Centroid decomp:
+
+int sub[100005],lvl[100005],parent[100005],ans[100005];
+vector<int> adjl[100005];
+
+int dst[100005][20];
+
+int dfs1 (int u , int p) {//finds size of subtree...
+    sub[u] = 1; // Subtree size is 1
+    int v;
+    for (int i=0;i<adjl[u].size();i++) {
+        v=adjl[u][i];
+        if ( lvl [v] != -1) continue ; // Already added to
+        if ( v == p ) continue ;
+        sub [u] += dfs1 (v,u) ; // Increase size of subtree
+    }
+    return sub [u];
+}
+
+int dfs2(int u,int p,int n){
+    int v;
+    for(int i=0;i<adjl[u].size();i++){
+        v=adjl[u][i];
+        if(lvl[v]!=-1)continue;
+        if(v!=p && sub[v]>n/2){
+            return dfs2(v,u,n);
+        }
+    }
+    return u;
+}
+void dfs3(int node,int l,int d,int prev){//node, level,distance...
+    dst[node][l]=d;
+    for(int i=0;i<adjl[node].size();i++){
+        if(lvl[adjl[node][i]]!=-1)continue;
+        //a centroid, which will be a parent in centroid tree...
+        if(adjl[node][i]==prev)continue;//visited before in the same dfs...
+        dfs3(adjl[node][i],l,d+1,node);
+    }
+}
+
+void build(int u,int p,int l){//current node, current parent, current level...
+    int n=dfs1(u,p);
+    int cent = dfs2(u,p,n);
+    if(p==-1)p=cent;
+    parent[cent]=p;
+    lvl[cent]=l;
+    dfs3(cent,l,0,-1);//for the distance...
+    for(int i=0;i<adjl[cent].size();i++){
+        if(lvl[adjl[cent][i]]!=-1)continue;
+        build(adjl[cent][i],cent,l+1);
+    }
+}
+
+void update(int x){
+    int l = lvl[x];
+    int y=x;
+    while(l!=-1){
+        ans[y]=min(ans[y],dst[x][l]);
+        y=parent[y];
+        l--;
+    }
+}
+int query(int x){
+    int l = lvl[x];
+    int y=x,res=ans[x];
+    while(l!=-1){
+        //ans[y]=min(ans[y],dst[x][l]);
+        res=min(res,ans[y]+dst[x][l]);
+        y=parent[y];
+        l--;
+    }
+    return res;
+}
+
+
+
+
+for(int x=1;x<n;x++){//1-indexed nodes
+    cin>>a>>b;
+    adjl[a].push_back(b);
+    adjl[b].push_back(a);
+    lvl[x]=-1;
+    ans[x]=1e9;
+}
+lvl[n]=-1;
+ans[n]=1e9;
+build(1,-1,0);
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Mo's:
+void addl(int x) {
+	// remove leftmost element (index at x)
+}
+
+void addr(int x) {
+	// add rightmost element (index at x)
+}
+
+void reml(int x) {
+	// remove leftmost element (index at x)
+}
+
+void remr(int x) {
+	// remove rightmost element (index at x)
+}
+
+/*
+Comparator
+	auto lp = make_pair(lhs.first / S, (lhs.first / S & 1) ? -lhs.second : lhs.second),  rp = make_pair(rhs.first / S, (rhs.first / S & 1) ? -rhs.second : rhs.second);
+return lp < rp;
+*/
+
+main() {
+	for (int i = L[1]; i <= R[1]; i++) addr(i);
+	for (int i = 2; i <= Q; i++)
+		if (R[i] >= R[i - 1]) {
+			for (int j = R[i - 1] + 1; j <= R[i]; j++) addr(j);
+			if (L[i] <= L[i - 1]) for (int j = L[i - 1] - 1; j >= L[i]; j--) addl(j);
+			else for (int j = L[i - 1]; j < L[i]; j++) reml(j);
+		} else {
+			if (L[i] <= L[i - 1]) for (int j = L[i - 1] - 1; j >= L[i]; j--) addl(j);
+			else for (int j = L[i - 1]; j < L[i]; j++) reml(j);
+			for (int j = R[i - 1]; j > R[i]; j--) remr(j);
+		}
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+MCBM:
+
+int match[2010];
+bool vis[2010];
+vector<int>v[2010];
+int aug(int l){
+	if (vis[l])return 0;
+	vis[l]=1;
+	for (int i=0;i<v[l].size();i++){
+		int r=v[l][i];
+		if (match[r]==-1||aug(match[r])){
+			match[r]=l;
+			return 1;
+		}
+	}
+	return 0;
+}
+int main() {
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+    int n,m,i,x,y,i1,mcbm=0;
+	cin>>n>>m;
+	for(i=0;i<n;i++){
+		for (i1=0;i1<m;i1++){
+			cin>>x;
+			if (x==1){
+				v[i].push_back(i1+1000);
+			}
+		}
+	}
+	for (i=0;i<2010;i++){
+		match[i]=-1;
+	}
+	for (i=0;i<n;i++){
+		for (i1=0;i1<2010;i1++){
+			vis[i1]=0;
+		}
+		mcbm+=aug(i);
+	}
+	cout<<mcbm<<'\n';
+
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

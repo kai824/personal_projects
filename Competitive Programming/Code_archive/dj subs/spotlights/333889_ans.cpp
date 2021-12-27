@@ -1,0 +1,41 @@
+// ans.cpp 7 Mar 18, 10:15:14 0 0 Judging completed in 6.355s on AWS Oregon.
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    int r,c,n,maxh=INT_MIN,ansx,ansy,x1,x2,y1,y2,h1,h2;
+    cin>>r>>c>>n;
+    if(n==1){
+        cin>>r>>c>>n;
+        cout<<r<<' '<<c<<' '<<n;
+    }else if(n==2 && c==1){
+        swap(r,c);
+        cin>>x1>>y1>>h1>>x2>>y2>>h2;
+        if(h1<h2){
+            swap(h1,h2);swap(x1,x2);swap(y1,y2);
+        }
+        if(h2<=h1){
+            if(x2>x1){
+                x2-=(h2-h1);
+                if(x2<=x1){
+                    cout<<x1<<' '<<y1<<' '<<h1;
+                    return 0;
+                }
+            }else{//x2<x1
+                x2+=(h2-h1);
+                if(x1>=x1){
+                    cout<<x1<<' '<<y1<<' '<<h1;
+                    return 0;
+                }
+            }
+            //now at the same height(h1)
+            if((x2-x1)%2==0){
+                cout<<(x1+x2)/2<<' '<<y1<<' '<<h1+((x2-x1)/2);
+            }else{
+                cout<<(x1+x2)/2<<' '<<y1<<' '<<h1+(max(x1,x2)-((x1+x2)/2));
+            }
+        }
+    }
+    return 0;
+}

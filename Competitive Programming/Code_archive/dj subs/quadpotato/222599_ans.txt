@@ -1,0 +1,2 @@
+// ans.txt 14 Oct 17, 22:53:32 9 0 Judging completed in 2.637s on AWS Oregon.
+673

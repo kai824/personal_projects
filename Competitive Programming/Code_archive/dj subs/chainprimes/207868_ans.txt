@@ -1,0 +1,2 @@
+// ans.txt 23 May 17, 22:40:53 87.5 0 Judging completed in 2.797s on AWS Oregon.
+16651 33301 66601 133201 266401 532801 1065601

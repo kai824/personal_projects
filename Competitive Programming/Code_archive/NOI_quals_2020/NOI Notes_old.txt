@@ -1,0 +1,588 @@
+1. Segment tree lazy nodes:
+#define DEFAULT_VALUE 2e9
+#define ONE 2e9
+
+
+int process(int a,int b){
+    return(min(a,b));
+}
+
+
+struct node{
+        int v;
+        node *l=NULL,*r=NULL;
+        node(int ss,int ee){
+                v=DEFAULT_VALUE;
+        }
+
+        void update(int p,int new_val,int s,int e){
+            if(p==s && p==e){
+                v=new_val;
+                return;
+            }
+            if(p<=(s+e)/2){
+                //update the left...
+                if(l==NULL)l=new node(s,(s+e)/2);
+                l->update(p,new_val,s,(s+e)/2);
+                if(r==NULL){
+                    v=process(l->v,DEFAULT_VALUE);
+                }else{
+                    v=process(l->v,r->v);
+                }
+            }else{
+                //update the right...
+                if(r==NULL)r=new node(((s+e)/2) + 1,e);
+                r->update(p,new_val,((s+e)/2) + 1,e);
+                if(l==NULL){
+                    v=process(DEFAULT_VALUE,r->v);
+                }else{
+                    v=process(l->v,r->v);
+                }
+            }
+        }
+
+        int query(int a,int b,int s,int e){
+            if(a<=s&&e<=b)return v;
+            int v_left,v_right;
+            if( ( (s+e)/2 )<a ){//left child not relevant
+                v_left=ONE;
+            }else{//left child relevant;
+                if(l==NULL)v_left=DEFAULT_VALUE;
+                else v_left=l->query(a,b,s,(s+e)/2);
+            }
+            if(b<=( (s+e)/2 ) ){//right child irrelvant
+                v_right=ONE;
+            }else{
+                if(r==NULL)v_right=DEFAULT_VALUE;
+                else v_right=r->query(a,b,((s+e)/2) + 1,e);
+            }
+            return process(v_left,v_right);
+        }
+} *root;
+int n;
+void init(int N) {
+    n=N;
+    root=new node(0,N-1);
+}
+
+
+void update(int P, int V) {
+    root->update(P,V,0,n-1);
+}
+
+
+int query(int a, int b){
+    return root->query(a,b,0,n-1);
+}
+
+
+2. Segment tree lazy propagation, lazy nodes
+#define ONE INT_MIN
+typedef long long ll;
+struct node{
+        ll v=0,lazy=0;
+        node *l=NULL,*r=NULL;
+        node(){}
+        ll query(ll s,ll e,ll a,ll b){//full range of nodes, query range
+                if(a<=s && e<=b)return v;
+                ll lv=ONE,rv=ONE;
+                if(a<=((s+e)/2)){//left child involved
+                        if(l==NULL){
+                                lv=lazy;
+                        }else{
+                                lv=l->query(s,(s+e)/2,a,b)+lazy;
+                        }
+                }
+                if((s+e)/2<b){
+                        if(r==NULL){
+                                rv=lazy;
+                        }else{
+                                rv=r->query((s+e)/2 + 1,e,a,b)+lazy;
+                        }
+                }
+                return max(lv,rv);
+        }
+        void update(ll s,ll e,ll a,ll b,ll add){//range of node, then range of update
+                if(a<=s && e<=b){
+                        if(s!=e)lazy+=add;
+                        v+=add;
+                        return;
+                }
+                if(a<=((s+e)/2)){//left child involved
+                        if(l==NULL){
+                                l=new node();
+                        }
+                        l->update(s,(s+e)/2,a,b,add);
+                }
+                if((s+e)/2<b){
+                        if(r==NULL){
+                                r=new node();
+                        }
+                        r->update((s+e)/2 + 1,e,a,b,add);
+                }
+                v=ONE;
+                if(l!=NULL)v=max(v,l->v);
+                if(r!=NULL)v=max(v,r->v);
+                v+=lazy;
+        }
+} *root;
+
+
+3. Fenwick Tree
+   1. PURQ
+int ft[1000005]={0};
+int ls(int x) {
+    return (x & (-x));
+}
+int query(int p) {
+    int sum = 0;
+    for(; p; p -= ls(p)) sum += ft[p];
+    return sum;
+}
+
+
+void update(int p, int v) {
+        for(; p <= 1000005; p += ls(p)) ft[p] += v;
+}
+   2. RUPQ
+int ft[1000005];                               // Fenwick to store differences
+int ls(int x){
+        return (x & (-x));
+}
+void update(int l, int r, int v){              // Updates from l to r inclusive
+        r++;                                      // Update the difference at r+1 not r
+        for(; l <= n; l += ls(l)) ft[l] += v;     // Add v to the difference at l
+        for(; r <= n; r += ls(r)) ft[r] -= v;     // Subtract v to the difference at r+1
+}
+int query(int p){                              // Returns the element at p
+        int sum = 0;
+        for(; p; p -= ls(p)) sum += ft[p];
+        return sum;
+}
+
+
+   3. RURQ
+typedef long long ll;
+ll ft1[1000005],ft2[1000005];
+void update (ll *ftx,ll pos,ll delta){
+        for (;pos<=100000;pos+=pos&(-pos)){
+                ftx[pos]+=delta;
+        }
+}
+ll query (ll *ftx,ll pos){
+        ll sum=0;
+        for(;pos;pos-=pos&(-pos)){
+                sum+=ftx[pos];
+        }
+        return sum;
+}
+
+
+void rupdate(ll a,ll b,ll v){
+        update(ft1,a,v);
+        update(ft1,b,-v);
+        update(ft2,a,-(a-1)*v);
+        update(ft2,b,b*v);
+}
+
+
+ll pquery(ll pos){
+        return pos*query(ft1,pos)+query(ft2,pos);
+}
+
+
+ll rquery(ll a, ll b){
+        return pquery(b)-pquery(a-1);
+}
+4. Floyd Warshall:
+for (int k = 0; k < V; k++){
+for (int i = 0; i < V; i++){
+for (int j = 0; j < V; j++){
+adjMat[i][j] = min(adjMat[i][j], adjMat[i][k] + adjMat[k][j]);
+}}}
+5. Dijkstra
+int t,e,start,end,a,b,c;
+cin>>t>>e>>start>>end;
+priority_queue<pair<int,int>, vector<pair<int, int> >, greater<pair<int, int> > > w;//what you are working with
+pair<int,int> top;
+int distances[t+1];
+fill_n(distances,t+1,INT_MAX);
+distances[start]=0;
+vector<vector<pair<int,int> > > adjmatrix(t+1);
+for(int x=0;x<e;x++){
+    cin>>a>>b>>c;
+    adjmatrix[a].push_back(make_pair(b,c));
+    adjmatrix[b].push_back(make_pair(a,c));
+}
+w.push(make_pair(0,start));
+while(!w.empty()){
+    top=w.top();
+    swap(top.first, top.second);
+    w.pop();
+    if(distances[top.first]>=top.second){
+        distances[top.first]=top.second;
+        for(int x=0;x<adjmatrix[top.first].size();x++){
+            if(distances[top.first]+adjmatrix[top.first][x].second<distances[adjmatrix[top.first][x].first]){
+                distances[adjmatrix[top.first][x].first]=distances[top.first]+adjmatrix[top.first][x].second;
+                w.push(make_pair(distances[adjmatrix[top.first][x].first],adjmatrix[top.first][x].first));
+            }
+        }
+    }
+}
+cout << distances[end];
+
+
+6. Articulation point:
+vector<vector<long long> >v(60000);
+long long ind[60000],low[60000],par[60000],cnt;//ind fill_n to -1
+set<long long>ap;
+void dfs(long long x){
+        long long child=0;
+        ind[x]=low[x]=cnt++;
+        for (long long i=0;i<v[x].size();i++){
+                long long y=v[x][i];
+                if (ind[y]==-1){
+                        child++;
+                        par[y]=x;
+                        dfs(y);
+                        low[x]=min(low[x],low[y]);
+                        if (par[x]==-1&&child>1){
+                                ap.insert(x);
+
+                        }
+                        else if (par[x]!=-1&&low[y]>=ind[x]){
+                                ap.insert(x);
+                        }
+                }
+                else if (y!=par[x])low[x]=min(low[x],ind[y]);
+        }
+}
+
+
+7. Bridges
+vector<vector<int> >v(6000);
+int ind[6000],low[6000],par[6000],cnt;//ind fill_n to -1
+vector<pair<int,int> >bridge;
+void dfs(int x){
+        int child=0;
+        ind[x]=low[x]=cnt++;
+        for (int i=0;i<v[x].size();i++){
+                int y=v[x][i];
+                if (ind[y]==-1){
+                        par[y]=x;
+                        dfs(y);
+                        low[x]=min(low[x],low[y]);
+                        //if no back edge from y
+                        if (low[y]>ind[x])bridge.push_back({x,y});
+                }
+                else if (y!=par[x])low[x]=min(low[x],ind[y]);
+        }
+}
+8. LCA
+typedef int ll;
+ll n,parent[18][50005],a,b,dist[50005],depth[50005];
+bool visited[50005];
+
+
+vector<pair<ll,ll> > adjlis[50005];
+
+
+void build(ll x,ll distance,ll d){//visits parents before children...
+    visited[x]=true;
+    dist[x]=distance;
+    depth[x]=d;
+    for(ll i=0;i<adjlis[x].size();i++){
+        if(visited[adjlis[x][i].first ]==false){//not parents...
+            parent[0][adjlis[x][i].first]=x;
+            build(adjlis[x][i].first,distance+adjlis[x][i].second,d+1);
+        }
+    }
+}
+
+
+void init(){
+        for(ll i=1;i<18;i++){
+                for(ll j=0;j<n;j++){
+                        if(parent[i-1][j]==-1){
+                                parent[i][j]=-1;
+                                continue;
+                        }
+                        parent[i][j]=parent[i-1][parent[i-1][j]];
+                }
+        }
+}
+
+
+ll query(ll x,ll k,ll next_bit){
+        if(x==-1)return -1;
+        if(k==0)return x;
+        if(k<(1<<next_bit)){//next_bit too huge...
+                return query(x,k,next_bit-1);
+        }
+        //k>=1<<nextbit, so parent[x][next_bit] is relevant...
+        return query(parent[next_bit][x],k-(1<<next_bit),next_bit-1);
+}
+
+
+ll lca(ll a,ll b){
+        ll c,d;
+        //Ensure that b is deeper down the graph...
+        if(depth[a]>depth[b]){//not what you want...
+                swap(a,b);
+        }
+        b=query(b,depth[b]-depth[a],17);
+        //now the depth is the same...
+        if(a==b)return a;
+        for(ll x=17;x>=0;x--){
+                if(depth[a]<(1<<x)){
+                        continue;
+                }
+                //1<<x should be relevant...
+                c=query(a,(1<<x),x);
+                d=query(b,(1<<x),x);
+                if(c!=d){
+                        a=c;
+                        b=d;
+                }
+        }
+        return parent[0][a];
+}
+int finddist(int a,int b){
+    int c=lca(a,b);
+    return (dist[a]-dist[c])+(dist[b]-dist[c]);
+}
+
+
+
+
+9. UFDS
+int mp[10000000],r[1000000];
+int get_root(int x){
+        if(mp[x]==x) return x;
+        else mp[x]=get_root(mp[x]);
+        return mp[x];
+}
+void combine(int x,int y){
+        if(r[x]<r[y])mp[get_root(x)]=get_root(y);
+        else if(r[y]<r[x])mp[get_root(y)]=get_root(x);
+        else {
+                mp[get_root(x)]=get_root(y);
+                r[get_root(y)]+=1;
+        }
+}
+bool check(int x,int y){
+        return get_root(x)==get_root(y);
+}
+
+
+10. Enumerating subsets
+vector<int> v;
+for (i = 0; i < (1 << N); i++) {
+int sum = 0;
+for (j = 0; j < N; j++) {
+if (i & (1 << j)) sum += A[j];//can replace sum with something else
+
+
+}
+v.push_back(sum);}
+11. SCC contract into DAG, use dp on DAG and store values to avoid recalculation if necessary
+#include <bits/stdc++.h>
+using namespace std;
+int idx,indices[100010],low[100010],on_stack[100010];
+vector<int>AdjList[100010],SCC_stack,new_SCC;
+vector<vector<int> >SCCs;
+void TarjanSCC(int x){
+  indices[x]=low[x]=idx++;
+  SCC_stack.push_back(x);
+  on_stack[x]=1;
+  for (auto it:AdjList[x]){
+    if (indices[it]==-1){
+      TarjanSCC(it);
+      low[x]=min(low[x],low[it]);
+    }
+    else if (on_stack[it]){
+      low[x]=min(low[x],indices[it]);
+    }
+  }
+  if (low[x]==indices[x]){
+    new_SCC.clear();
+    while (1){
+      new_SCC.push_back(SCC_stack.back());
+      on_stack[SCC_stack.back()]=0;
+      SCC_stack.pop_back();
+      if (new_SCC.back()==x)break;
+    }
+    SCCs.push_back(new_SCC);
+  }
+}
+int main() {
+    int n,e,i,i1,x,y,i2;
+    cin>>n>>e;
+    while (e--){
+      cin>>x>>y;
+      AdjList[x].push_back(y);
+    }
+    for (i=1;i<=n;i++)indices[i]=-1;
+    for (i=1;i<=n;i++){
+      if (indices[i]==-1)TarjanSCC(i);
+    }
+    int arr[n+1];
+    for (i=0;i<SCCs.size();i++){
+      for (i1=0;i1<SCCs[i].size();i1++){
+        arr[SCCs[i][i1]]=i;
+      }
+    }
+    vector<int>newlist[n+1];
+    for (i=0;i<SCCs.size();i++){
+      for (i1=0;i1<SCCs[i].size();i1++){
+        x=SCCs[i][i1];
+        for (i2=0;i2<AdjList[x].size();i2++){
+          if (arr[AdjList[x][i2]]!=i){
+            newlist[i].push_back(arr[AdjList[x][i2]]);
+          }}} }}
+12. Sparse Table
+// C++ program to do range minimum query
+// using sparse table
+#include <bits/stdc++.h>
+using namespace std;
+#define MAX 500
+int lookup[MAX][MAX];
+ void buildSparseTable(int arr[], int n)
+{
+    // Initialize M for the intervals with length 1
+    for (int i = 0; i < n; i++)
+        lookup[i][0] = arr[i];
+    for (int j = 1; (1 << j) <= n; j++) {
+
+        // Compute minimum value for all intervals with
+        // size 2^j
+        for (int i = 0; (i + (1 << j) - 1) < n; i++) {
+
+            // For arr[2][10], we compare arr[lookup[0][7]]
+            // and arr[lookup[3][10]]
+            if (lookup[i][j - 1] <
+                        lookup[i + (1 << (j - 1))][j - 1])
+                lookup[i][j] = lookup[i][j - 1];
+            else
+                lookup[i][j] =
+                         lookup[i + (1 << (j - 1))][j - 1];
+        }
+    }
+}
+
+// Returns minimum of arr[L..R]
+int query(int L, int R)
+{
+    int j = (int)log2(R - L + 1);
+
+
+    if (lookup[L][j] <= lookup[R - (1 << j) + 1][j])
+        return lookup[L][j];
+
+    else
+        return lookup[R - (1 << j) + 1][j];
+}
+
+// Driver program
+int main()
+{
+    int a[] = { 7, 2, 3, 0, 5, 10, 3, 12, 18 };
+    int n = sizeof(a) / sizeof(a[0]);
+    buildSparseTable(a, n);
+    cout << query(0, 4) << endl;
+    cout << query(4, 7) << endl;
+    cout << query(7, 8) << endl;
+    return 0;
+}
+13. Knapsack
+bit=0
+for(int x=1;x<=n;x++){
+        for(int y=0;y<=m;y++){
+                if(y>=w[x]){
+                        arr[bit][y]=max(max(arr[!bit][y],arr[bit][y-1]),arr[!bit][y-w[x]]+v[x]);
+                }else{
+                        arr[bit][y]=max(arr[!bit][y],arr[bit][y-1]);
+                }
+        }
+        bit=!bit;
+}
+cout<<arr[!bit][m];
+
+
+14. DNC
+#include <bits/stdc++.h>
+using namespace std;
+long long ps[8010],dp[2][8010],opt[8010];//ps is prefix sum which may not be necessary
+//1 stands for current layer,0 stands for previous layer
+void dnc(long long st,long long en,long long x,long long y){//layer starts with 1
+        long long mid=st+(en-st)/2;//find middle value and middle opt value
+        dp[1][mid]=dp[0][mid];
+        for (long long i=x;i<=min(mid,y);i++){
+                if (dp[1][mid]>dp[0][i-1]+(ps[mid]-ps[i-1])*(mid-i+1)){
+                        dp[1][mid]=dp[0][i-1]+(ps[mid]-ps[i-1])*(mid-i+1);
+                        opt[mid]=i;
+                }
+        }
+        if (st<mid)dnc(st,mid-1,x,opt[mid]);
+        if (mid<en)dnc(mid+1,en,opt[mid],y);
+}
+15. Convex hull
+typedef long long ll;
+inline double divide(ll a,ll b){
+        double aa=a,bb=b;
+        return aa/bb;
+}
+
+
+//convex hull...
+vector<pair<double,pair<double,ll> > >lines;//intercept with previous, gradient, y-intercept
+inline void add_line(double m, ll c){//gradient, y-intercept, assumes increasing gradient
+        while(lines.size()>=2){
+                //intersect(new, third last)
+                if(divide(c-lines[lines.size()-2].second.second,lines[lines.size()-2].second.first-m)<lines.back().first){
+                        lines.pop_back();//will be irrelevant
+                }else break;
+        }
+        if(lines.size()==0)lines.push_back(make_pair(LLONG_MIN,make_pair(m,c)));
+        else lines.push_back(make_pair(divide(c-lines.back().second.second, lines.back().second.first-m),make_pair(m,c)));
+}
+inline ll query(ll x){//x-coordinate, uses max_point
+        ll mid,lo=0,hi=lines.size()-1;
+        while(lo<hi){//find highest number less than x...
+                mid=hi-(hi-lo)/2;
+                if(lines[mid].first<=x)lo=mid;
+                else hi=mid-1;
+        }
+        return lo;
+}
+
+
+16. Fast exponentiation
+
+unsigned long long p(unsigned long long x,unsigned long long y,unsigned long long m){
+unsigned long long ans=1;
+while (y>0){
+        if (y%2==1){
+                ans=(ans*x)%m;
+        }
+        y/=2;
+        x=(x*x)%m;
+}
+return ans%m;
+}
+17. Fast I/O
+inline int get()
+{
+    int ret=0, c=getc(stdin);
+    while (c<'0'||c>'9') c=getc(stdin);
+    while (c>='0'&&c<='9')
+    {
+        ret*=10;
+        ret+=c-'0';
+        c=getc(stdin);
+    }
+    return ret;
+}
+int main(){
+     int n=get();//this is how to input n as a integer
+}

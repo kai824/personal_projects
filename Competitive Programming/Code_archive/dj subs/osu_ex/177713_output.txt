@@ -1,0 +1,2 @@
+// output.txt 5 Jan 17, 05:15:34 63.21 0 Judging completed in 3.801s on AWS Ireland.
+//eowivkcu

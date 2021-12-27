@@ -1,0 +1,2 @@
+// ans.txt 7 Jan 17, 16:19:41 12 0 Judging completed in 2.924s on AWS Ireland.
+690

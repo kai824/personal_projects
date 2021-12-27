@@ -1,0 +1,2 @@
+// subtask2.txt 24 Nov 18, 15:17:05 100 0 Judging completed in 1.337s on AWS Oregon.
+GUANTASTIC

@@ -1,0 +1,26 @@
+// ans.cpp 5 Aug 17, 19:32:16 100 0.04 Judging completed in 3.573s on AWS Oregon.
+%:include<iostream>
+int
+n;
+int
+i;
+int
+a;
+int
+s;
+int
+c;
+int
+u;
+main()<%
+u++;
+c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++;c++; 
+std::cin>>n;
+for(;i<n;i++)<%
+for(int
+m(a);m<i;m++)<%
+std::cout<<m+u<<(char)c;
+%>
+std::cout<<i+u<<std::endl;
+%>
+%>

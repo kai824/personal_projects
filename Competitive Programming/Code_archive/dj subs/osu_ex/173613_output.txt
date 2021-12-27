@@ -1,0 +1,2 @@
+// output.txt 21 Dec 16, 21:05:08 90.89 0 Judging completed in 2.941s on AWS Ireland.
+//osu is just a click away...lol

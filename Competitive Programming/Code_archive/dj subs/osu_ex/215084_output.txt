@@ -1,0 +1,1 @@
+// output.txt 16 Jul 17, 16:41:55 100 0 Judging completed in 2.729s on AWS Oregon.
